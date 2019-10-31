@@ -37,9 +37,16 @@ function exampleFunction(num1, num2) {
  *   email: "leia@leia.com",
  * }
 */
-function makePersonObject(/* code here */) {
+function makePersonObject(a , b ,c) {
   /* code here */
+  const info = {
+    id: a,
+    name: b,
+    email: c,
+  }
 }
+makePersonObject(2, "Joe", "test@tes.com")
+
 
 /**
  * ### Challenge `getName`
