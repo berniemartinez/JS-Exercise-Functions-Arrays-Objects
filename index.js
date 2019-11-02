@@ -37,15 +37,16 @@ function exampleFunction(num1, num2) {
  *   email: "leia@leia.com",
  * }
 */
-function makePersonObject(a , b ,c) {
+function makePersonObject(a, b ,c) {
   /* code here */
   const info = {
     id: a,
     name: b,
     email: c,
   }
+  return info
 }
-makePersonObject();
+makePersonObject(1, "julian", "mail@mail.com");
 
 
 /**
@@ -78,8 +79,9 @@ function getName(/* code here */) {
  *         and returns a string like `Hello, my name is {name}`.
  *         where `{name}` is the name passed into `makeSmartPerson`.
 */
-function makeSmartPerson(/* code here */) {
+function makeSmartPerson(obj) {
   /* code here */
+  return `Hello, my name is ${obj.name}`
 }
 
 /**
