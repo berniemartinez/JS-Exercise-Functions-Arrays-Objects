@@ -45,7 +45,7 @@ function makePersonObject(a , b ,c) {
     email: c,
   }
 }
-makePersonObject(2, "Joe", "test@tes.com")
+makePersonObject();
 
 
 /**
